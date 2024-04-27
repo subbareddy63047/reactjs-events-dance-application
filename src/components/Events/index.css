@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+.main-container {
+  width: 98vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left-container {
+  width: 48%;
+  height: 100%;
+  background-color: #64748b;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.left-container__heading {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.events-list-container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.right-container {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
